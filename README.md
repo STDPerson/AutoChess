@@ -1,5 +1,9 @@
 # ChessAuto
 
+> [!IMPORTANT]
+> **DIHARAPKAN SUDAH MELAKUKAN FINE-TUNING PADA MODEL AI (LLM) YANG DIGUNAKAN SEBELUM MENJALANKAN PROGRAM INI.**
+> Menggunakan model LLM standar (vanilla) yang belum dilatih khusus untuk bermain catur dapat menyebabkan penurunan akurasi langkah atau pengambilan keputusan yang kurang optimal.
+
 ChessAuto adalah sebuah program otomasi bot catur cerdas yang beroperasi secara lokal menggunakan sistem *Logical State Tracking* berkecepatan tinggi dan terintegrasi dengan model kecerdasan buatan dari Ollama. Program ini dirancang untuk mendeteksi pergerakan bidak secara waktu nyata (real-time) melalui sensor piksel kamera dan mengeksekusi langkah terbaik yang dihasilkan oleh LLM secara mandiri.
 
 ## Fitur Utama
